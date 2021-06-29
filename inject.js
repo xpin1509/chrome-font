@@ -37,7 +37,7 @@ function getFontInfo () {
     attrs.forEach(el => {
         const { key } = el
         el.value = attrMap[key]
-        msg += el.name + el.value + '\n'
+        msg += el.name + ' : ' + el.value + '\n'
     })
 
 
