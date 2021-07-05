@@ -27,6 +27,10 @@ function getFontInfo () {
             name: '字体大小'
         },
         {
+            key: 'fontWeight',
+            name: '粗细'
+        },
+        {
             key: 'fontFamily',
             name: '字体类型'
         }
